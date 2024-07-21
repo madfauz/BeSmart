@@ -1,0 +1,396 @@
+.confirm {
+  background-color: rgb(31, 214, 126);
+  border: 1px solid rgb(164, 223, 195);
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirm > h3 {
+  color: white;
+  font-size: 1.8em;
+}
+.confirm button {
+  width: 40%;
+  height: 14%;
+  font-weight: 600;
+  border: 2px solid rgb(17, 117, 39);
+  background-color: rgb(211, 253, 233);
+  transition: 0.3s;
+}
+
+.confirm button:hover {
+  width: 40%;
+  height: 14%;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(53, 164, 110);
+}
+
+.header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-bottom: 2px solid rgb(31, 214, 126);
+  color: white;
+  margin-top: 70px;
+}
+.header .overlay {
+  padding: 20px 30px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.header h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.header h5 {
+  font-size: 1.6em;
+  font-weight: 300;
+}
+.header h6 {
+  font-size: 1.6em;
+  font-weight: 300;
+}
+.header p {
+  font-size: 1.6em;
+  font-weight: 400;
+}
+
+.buttonEdit {
+  background-color: rgb(215, 247, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 0;
+}
+
+.buttonEdit button > * {
+  text-decoration: none;
+  color: white;
+}
+
+.buttonClass {
+  font-size: 1.6em;
+  cursor: pointer;
+  border-radius: 4px;
+  border: solid 1px #ffffff;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 140px;
+  height: 44px;
+  background-color: rgb(31, 214, 126);
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttonClass:hover {
+  background-color: rgb(19, 125, 74);
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu .menu_item {
+  flex-basis: 33.33%;
+  font-size: 1.6em;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 6px;
+  border-bottom: 0.2px solid rgb(160, 209, 143);
+}
+.menu .menu_item:hover {
+  background-color: rgb(51, 198, 127);
+  color: white;
+}
+
+.menu .menu_item:nth-child(2) {
+  border-left: 0.2px solid rgb(160, 209, 143);
+  border-right: 0.2px solid rgb(160, 209, 143);
+}
+
+.classList {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 56%;
+  padding: 0;
+  margin: 14px auto;
+  gap: 20px;
+}
+
+.classList li {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2px;
+  list-style-type: none;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.classList li h3 {
+  font-size: 2.6em;
+  font-weight: 500;
+}
+.classList li p {
+  margin-top: 8px;
+  font-size: 2em;
+}
+.classList li a {
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.classList li img {
+  width: 100%;
+}
+.classList li .file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid rgb(4, 255, 133);
+  border-radius: 4px;
+  width: 200px;
+  height: 42px;
+  padding: 8px 12px;
+  overflow: hidden;
+  text-decoration: none;
+  background-color: rgb(16, 166, 93);
+  box-shadow: 2px 2px 6px rgba(100, 100, 100, 0.2), -2px -2px 6px rgba(100, 100, 100, 0.2);
+}
+
+.classList li .file .fileIcon {
+  height: 100%;
+  width: 20px;
+}
+
+.classList li .file .fileName {
+  font-size: 0.8em;
+  white-space: nowrap;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.classList li .ratioVideo {
+  width: 100%;
+}
+
+.classList .date {
+  font-size: 1.6em;
+  margin-top: 26px;
+  font-weight: 300;
+}
+.classList .footerMaterial {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.classList .footerMaterial > .editMaterial {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 2px;
+}
+
+.classList .footerMaterial > .editMaterial button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  border: solid 1px #ffffff;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 160px;
+  height: 44px;
+  background-color: rgb(31, 214, 126);
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.classList .footerMaterial > .editMaterial button:hover {
+  background-color: rgb(19, 125, 74);
+}
+
+.memberList {
+  padding: 10px 0 20px 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 56%;
+  margin: 20px auto 24vh auto;
+}
+
+.memberList h4 {
+  font-size: 2.4em;
+  font-weight: 500;
+}
+.memberList li {
+  font-size: 1.6em;
+  border: 1px solid grey;
+  padding: 6px 0px 6px 12px;
+}
+
+@media only screen and (max-width: 900px) {
+  .classList {
+    width: 70%;
+  }
+  .memberList {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    margin-top: 70px;
+  }
+
+  .header .overlay {
+    padding: 20px 20px 10px 20px;
+  }
+  .header h1 {
+    font-size: 1.6em;
+  }
+  .header h5 {
+    font-size: 1.1em;
+  }
+  .header h6 {
+    font-size: 1.1em;
+  }
+  .header p {
+    font-size: 1.1em;
+  }
+
+  .buttonEdit {
+    gap: 10px;
+    padding: 14px 0;
+  }
+
+  .buttonClass {
+    font-size: 0.9em;
+    width: 80px;
+    height: 26px;
+  }
+
+  .menu .menu_item {
+    flex-basis: 33.33%;
+    font-size: 0.9em;
+    padding: 4px;
+  }
+
+  .classList {
+    width: 90%;
+    margin: 28px auto 300px auto;
+    gap: 14px;
+  }
+
+  .classList li {
+    gap: 2px;
+    padding-bottom: 16px;
+  }
+
+  .classList li h3 {
+    font-size: 1.6em;
+  }
+  .classList li p {
+    margin-top: 6px;
+    font-size: 1.2em;
+  }
+  .classList li a {
+    font-size: 1.2em;
+  }
+
+  .classList li img {
+    width: 100%;
+  }
+  .classList li .file {
+    gap: 8px;
+    width: 150px;
+    height: 34px;
+    padding: 6px 8px;
+  }
+
+  .classList li .file .fileIcon {
+    height: 100%;
+    width: 16px;
+  }
+
+  .classList li .file .fileName {
+    font-size: 1em;
+  }
+
+  .classList li .ratioVideo {
+    width: 100%;
+  }
+
+  .classList .date {
+    font-size: 1em;
+    margin-top: 22px;
+  }
+
+  .classList .footerMaterial {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .classList .footerMaterial > .editMaterial {
+    border-radius: 2px;
+  }
+
+  .classList .footerMaterial > .editMaterial button {
+    font-size: 0.8em;
+    width: 90px;
+    height: 30px;
+  }
+
+  .memberList {
+    padding: 10px 0 20px 10px;
+    gap: 20px;
+    width: 64%;
+    margin: 20px auto 300px auto;
+  }
+
+  .memberList h4 {
+    font-size: 1.6em;
+    font-weight: 500;
+  }
+  .memberList li {
+    font-size: 0.9em;
+    padding: 6px 0px 6px 12px;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .memberList {
+    width: 84%;
+  }
+}

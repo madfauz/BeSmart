@@ -1,0 +1,135 @@
+.container {
+  width: 100%;
+  height: auto;
+  margin: 82px auto 0px auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 2.6em;
+  color: rgb(31, 214, 126);
+  margin-bottom: 10px;
+}
+
+.helpList {
+  width: 60%;
+}
+
+.helpContainer {
+  padding: 4px;
+  border: 1px solid rgb(0, 94, 49);
+}
+
+.helpContainer h4 {
+  color: rgb(82, 82, 82);
+  font-size: 1.8em;
+}
+
+.helpBody {
+  font-size: 1.6em;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    margin: 82px auto 0px auto;
+    padding-top: 20px;
+    gap: 10px;
+  }
+
+  .title {
+    font-size: 2.2em;
+    margin-bottom: 8px;
+  }
+
+  .helpList {
+    width: 80%;
+  }
+
+  .helpContainer h4 {
+    font-size: 1.5em;
+  }
+
+  .helpBody {
+    font-size: 1.3em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 90px auto 0px auto;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    gap: 10px;
+  }
+
+  .title {
+    font-size: 2.2em;
+    margin-bottom: 12px;
+  }
+
+  .helpList {
+    width: 80%;
+  }
+
+  .helpContainer h4 {
+    font-size: 1.4em;
+  }
+
+  .helpBody {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    margin: 90px auto 0px auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    gap: 10px;
+  }
+
+  .title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+
+  .helpList {
+    width: 86%;
+  }
+
+  .helpContainer h4 {
+    font-size: 1.2em;
+  }
+
+  .helpBody {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    margin: 90px auto 0px auto;
+    padding-top: 16px;
+  }
+
+  .title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+
+  .helpList {
+    width: 86%;
+  }
+
+  .helpContainer h4 {
+    font-size: 1.1em;
+  }
+
+  .helpBody {
+    font-size: 1em;
+  }
+}

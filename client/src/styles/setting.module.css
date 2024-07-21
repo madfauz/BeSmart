@@ -1,0 +1,223 @@
+.container {
+  margin-top: 120px;
+  margin-bottom: 82vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.6em;
+  color: rgb(31, 214, 126);
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: auto;
+}
+
+.titleOption {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(97, 97, 97);
+}
+
+.input {
+  width: 30%;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px grey solid;
+  color: rgb(97, 97, 97);
+}
+
+.button {
+  width: 60px;
+  height: 30px;
+  border: 1px solid grey;
+  transition: 0.3s;
+  background-color: transparent;
+  color: rgb(97, 97, 97);
+}
+
+.button:hover {
+  color: white;
+  background-color: rgb(31, 214, 126);
+}
+
+.response {
+  text-align: center;
+  margin-top: 6px;
+  font-size: 1.4em;
+  color: rgb(183, 183, 183);
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    margin-top: 110px;
+    margin-bottom: 76vh;
+  }
+
+  .title {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+  }
+
+  .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+  }
+
+  .titleOption {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .input {
+    width: 40%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+
+  .button {
+    width: 60px;
+    height: 28px;
+  }
+
+  .response {
+    margin-top: 6px;
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-top: 90px;
+    margin-bottom: 76vh;
+  }
+
+  .title {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+  }
+
+  .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: auto;
+  }
+
+  .titleOption {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .input {
+    width: 50%;
+    height: 28px;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+
+  .button {
+    width: 50px;
+    height: 28px;
+  }
+
+  .response {
+    margin-top: 5px;
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    margin-top: 90px;
+    margin-bottom: 80vh;
+  }
+
+  .title {
+    font-size: 2em;
+    margin-bottom: 16px;
+  }
+
+  .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    height: auto;
+  }
+
+  .titleOption {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .input {
+    width: 50%;
+    height: 26px;
+    padding-left: 10px;
+    font-size: 14px;
+  }
+
+  .button {
+    width: 40px;
+    height: 26px;
+  }
+
+  .response {
+    margin-top: 5px;
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .container {
+    margin-top: 90px;
+    margin-bottom: 76vh;
+  }
+
+  .title {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .titleOption {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .input {
+    width: 74vw;
+    height: 26px;
+    padding-left: 10px;
+    font-size: 14px;
+  }
+
+  .button {
+    font-size: 9px;
+    width: 74vw;
+    height: 26px;
+  }
+
+  .response {
+    margin-top: 5px;
+    font-size: 1.2em;
+  }
+}

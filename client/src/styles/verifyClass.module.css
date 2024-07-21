@@ -1,0 +1,86 @@
+.main_container_add {
+  margin-top: 160px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 10vh auto;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2), -1px -1px 10px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  height: auto;
+  width: 40%;
+  line-height: 38px;
+  font-size: 1.2em;
+}
+
+.custom_title_add {
+  display: block;
+  font-size: 2em;
+  font-weight: 800;
+  text-align: center;
+}
+
+.custom_footer_add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom_add_button {
+  width: 30%;
+  height: 30px;
+  font-size: 1em;
+  padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom_form {
+    margin: 90px auto 140px auto;
+    width: 60%;
+    padding: 50px 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .custom_form {
+    width: 86%;
+    padding: 40px 20px;
+    margin: 70px auto 140px auto;
+  }
+
+  .custom_title_add {
+    font-size: 1.6em;
+  }
+
+  .custom_add_button {
+    width: 30%;
+    height: 26px;
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .custom_form {
+    width: 90%;
+  }
+
+  .custom_title_add {
+    font-size: 1.4em;
+  }
+
+  .custom_add_button {
+    width: 30%;
+    height: 26px;
+    font-size: 0.7em;
+  }
+}

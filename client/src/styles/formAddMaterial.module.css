@@ -1,0 +1,90 @@
+.main_container_add {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 34vh;
+}
+
+.custom_form {
+  display: block;
+  margin: 16vh auto 0px auto;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -2px -2px 10px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  height: auto;
+  width: 50%;
+  line-height: 38px;
+  font-size: 1.2em;
+}
+
+.custom_title_add {
+  display: block;
+  font-size: 2em;
+  font-weight: 800;
+  text-align: center;
+}
+
+.custom_textarea {
+  resize: none;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+
+.preview_file {
+  max-width: 50%;
+  height: 30px;
+  padding: 4px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-size: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.preview_file > * {
+  padding-left: 6px;
+}
+
+.custom_footer_add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom_footer_add > * {
+  line-height: 14px;
+}
+
+.custom_add_button {
+  width: 30%;
+  height: 30px;
+  font-size: 1em;
+  padding: 0;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main_container_login {
+    flex-direction: column;
+  }
+
+  .custom_form {
+    margin: 18vh auto 0px auto;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .custom_form {
+    width: 84%;
+  }
+}

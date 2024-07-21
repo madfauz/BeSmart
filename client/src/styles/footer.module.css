@@ -1,0 +1,53 @@
+@keyframes changeColor {
+  0% {
+    fill: #ffffff;
+  }
+  33% {
+    fill: #39bed8;
+  }
+  66% {
+    fill: #61d5a8;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+
+svg path {
+  fill: #ffffff;
+  transition: fill 0.3s;
+  cursor: pointer;
+}
+
+svg:hover path {
+  animation: changeColor 0.5s;
+}
+
+.container {
+  width: 100%;
+  background-color: rgb(31, 214, 126);
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px;
+  position: relative;
+  margin-top: 200px;
+  bottom: 0;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icons > * {
+  width: 16px;
+  height: 16px;
+}
+
+@media only screen and (max-width: 700px) {
+  .icons > * {
+    width: 10px;
+    height: 10px;
+  }
+}

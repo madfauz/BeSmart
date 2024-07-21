@@ -1,0 +1,107 @@
+.main_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  gap: 6%;
+}
+
+.main_container div {
+  width: 38%;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2), -1px -1px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.main_container div .title {
+  width: 100%;
+}
+
+.main_container div .title h3 {
+  text-align: center;
+  background-color: rgb(31, 214, 126);
+  color: white;
+  padding: 6px;
+  border-radius: 4px;
+}
+.main_container div ul {
+  min-height: 220px;
+  height: auto;
+  max-height: 360px;
+  overflow-y: scroll;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 14px 0 14px;
+}
+.main_container div ul a {
+  color: rgb(55, 56, 55);
+  text-decoration: none;
+}
+
+.main_container div ul li {
+  padding: 6px;
+  border-radius: 4px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.main_container div ul li:last-child {
+  border-bottom: none;
+}
+
+.empty_column {
+  text-align: center;
+  margin: 80px 0;
+  color: rgb(98, 98, 98);
+}
+
+@media only screen and (max-width: 850px) {
+  .main_container {
+    margin-top: 130px;
+  }
+
+  .main_container div {
+    width: 42%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main_container {
+    margin: 110px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .main_container div {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main_container {
+    margin-top: 110px;
+    gap: 40px;
+  }
+
+  .main_container div {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .main_container {
+    margin-top: 100px;
+    gap: 30px;
+  }
+  .main_container div {
+    width: 85%;
+    height: auto;
+  }
+  .main_container div ul {
+    min-height: 190px;
+  }
+}
